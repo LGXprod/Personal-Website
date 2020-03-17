@@ -1,0 +1,223 @@
+body {
+    background-color: #1b262c;
+}
+
+hr {
+    background-color: #3282b8;
+    height: 0.15vh;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.75vw;
+}
+
+h2 {
+    font-size: 2vw;
+}
+
+h3 {
+    font-size: 1.5vw;
+}
+
+ul, li, p, a {
+    color: #bbe1fa;
+}
+
+a:hover {
+    color: #bbe1fa;
+}
+
+.infoPanel {
+    display: inline-block;
+    width: 95%;
+    height: 80%;
+    margin-top: 2.5%;
+    /* position: relative;
+    left: 2.5%;
+    top: 7.5%; */
+}
+
+.panel {
+    display: block;
+    width: 100vw;
+    height: 75vh;
+    text-align: center;
+    position: relative;
+}
+
+.iFrame {
+    width: 50%;
+    height: 100%;
+    border-radius: 2px;
+}
+
+.skillPanel2 {
+    display: inline-block;
+    width: 40%;
+    vertical-align: text-top;
+    border-style: solid;
+    border-color: #bbe1fa;
+    border-width: 5px;
+    border-radius: 10px;
+    margin: 2.5%;
+    margin-top: 0;
+    padding: 2.5%;
+}
+
+.skillPanel4 {
+    display: inline-block;
+    width: 20vw;
+    vertical-align: text-top;
+    border-style: solid;
+    border-color: #bbe1fa;
+    border-width: 5px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 0.75vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+}
+
+.skillItem {
+    padding-top: 15px;
+}
+
+.heading {
+    color: #bbe1fa;
+    padding-top: 10px;
+}
+
+.background-img {
+    width: 100vw;
+    height: 100%;
+}
+
+.dark-green {
+    background-color: #1b262c;
+}
+
+.dark-blue {
+    background-color: #0f4c75;
+}
+
+.stuck {
+    position: sticky;
+}
+
+.nav-link {
+    margin-right: 5vw;
+    margin-left: 5vw;
+}
+
+.skill-img {
+    display: inline-block;
+    height: 4vw;
+    padding-right: 10px;
+}
+
+.center {
+    display: block;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.skill-text {
+    display: inline-block;
+    color: #bbe1fa;
+    padding-left: 10px;
+}
+
+.info-img {
+    float: left;
+    width: 50%;
+    padding-right: 1.5%;
+}
+
+.gray-border {
+    border: #1b262c solid 3px;
+}
+
+.blue-border {
+    border: #bbe1fa solid 3px;
+}
+
+.info-text {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    padding-left: 1.5%;
+    font-size: 14px;
+    vertical-align: top;
+}
+
+.gitHubLogo {
+    height: 45px;
+    padding-right: 2%;
+}
+
+.gitItem {
+    display: block;
+    width: 20vw;
+    position: absolute;
+    left: 40vw;
+    right: 40vw;
+    bottom: 2%;
+}
+
+.image-gallery-slide img {
+    width: 100%;
+    height: 300px;
+}
+
+.grade {
+    display: inline-block;
+    background-color: #1b262c;
+    color: #bbe1fa;
+}
+
+.adjacent {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5%;
+}
+
+@media screen and (max-width: 1024px) {
+    .panel {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .infoPanel {
+        display: inline-block;
+        width: 95%;
+        height: 95%;
+        padding: 0;
+        top: 2.5%;
+        /* padding-left: 2.5%;
+        padding-right: 2.5%; */
+    }
+
+    .iFrame {
+        display: block;
+        width: 100%;
+        height: 55%;
+    }
+
+    .info-text {
+        display: block;
+        width: 100%;
+    }
+
+    .info-img {
+        width: 100%;
+        padding: 0;
+        float: none;
+    }
+
+    .heading {
+        text-align: center;
+    }
+}
