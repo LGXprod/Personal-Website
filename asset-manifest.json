@@ -28,8 +28,8 @@
     "static/media/sql.png": "Personal-Website/static/media/sql.13361f16.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.aa739829.js",
-    "static/js/2.0667e505.chunk.js",
-    "static/js/main.e86945ff.chunk.js"
+    "Personal-Website/static/js/runtime-main.aa739829.js",
+    "Personal-Website/static/js/2.0667e505.chunk.js",
+    "Personal-Website/static/js/main.e86945ff.chunk.js"
   ]
 }
