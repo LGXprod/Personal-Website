@@ -32,7 +32,7 @@ a:hover {
     display: inline-block;
     width: 95%;
     height: 80%;
-    margin-top: 2.5%;
+    margin-top: 1.25%;
     margin-bottom: 2.5%;
     /* position: relative;
     left: 2.5%;
@@ -44,7 +44,7 @@ a:hover {
     width: 100vw;
     /* height: 75vh; */
     text-align: center;
-    position: relative;
+    /* position: relative; */
 }
 
 .iFrame {
@@ -156,7 +156,7 @@ a:hover {
 }
 
 .gitHubLogo {
-    height: 45px;
+    height: 55px;
     padding-right: 0.5%;
 }
 
@@ -164,8 +164,8 @@ a:hover {
     display: block;
     position: relative;
     bottom: 20px;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
+    margin-top: 0.25%;
+    margin-bottom: 0.25%;
     /* width: 20vw;
     position: absolute;
     left: 40vw;
