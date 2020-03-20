@@ -88,7 +88,7 @@ a:hover {
 .heading {
     color: #bbe1fa;
     padding-top: 10px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .background-img {
@@ -201,6 +201,11 @@ a:hover {
     height: 75vh;
 }
 
+.prev, .next {
+    height: 20vh;
+    z-index: 10;
+}
+
 @media screen and (min-width: 376px) and (max-width: 1024px) {
     .iFrame {
         display: block;
@@ -248,6 +253,10 @@ a:hover {
     h3 {
         font-size: 3vw;
     }
+
+    .skillPanel4 {
+        /* display: block; */
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -283,6 +292,11 @@ a:hover {
         height: 30vh;
         padding: 0;
         float: none;
+    }
+
+    .heading {
+        font-size: 5.5vw;
+        text-align: center;
     }
 
     h1 {
