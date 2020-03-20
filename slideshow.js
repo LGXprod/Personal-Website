@@ -1,7 +1,10 @@
 /* eslint-disable no-undef */
 
-$(document).ready(function(){
-    console.log("Slick initialized")
+window.onload = function() {
+    console.log("Home loaded");
+}
+
+$(document).ready(function() {
     $("#slideshow").slick({
         // appendArrows: null,
         arrows: true,
