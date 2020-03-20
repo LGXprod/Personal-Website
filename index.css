@@ -88,6 +88,7 @@ a:hover {
 .heading {
     color: #bbe1fa;
     padding-top: 10px;
+    text-align: center;
 }
 
 .background-img {
@@ -129,7 +130,7 @@ a:hover {
 .skill-text {
     display: inline-block;
     color: #bbe1fa;
-    padding-left: 10px;
+    /* padding-left: 10px; */
 }
 
 .info-img {
@@ -151,7 +152,7 @@ a:hover {
     width: 50%;
     text-align: left;
     padding-left: 1.5%;
-    font-size: 14px;
+    font-size: 0.95vw;
     vertical-align: top;
 }
 
@@ -190,11 +191,26 @@ a:hover {
     margin-right: 5%;
 }
 
-@media screen and (max-width: 1024px) {
+.skill-section {
+    width: 50%;
+    float: left;
+}
+
+.slide-img {
+    width: 100vw;
+    height: 75vh;
+}
+
+@media screen and (min-width: 376px) and (max-width: 1024px) {
     .iFrame {
         display: block;
         width: 100%;
         height: 45vh;
+    }
+
+    .skill-section {
+        width: 100%;
+        float: none;
     }
 
     .info-img {
@@ -228,6 +244,10 @@ a:hover {
     .gitItem {
         font-size: 3.5vw;
     }
+
+    h3 {
+        font-size: 3vw;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -253,6 +273,11 @@ a:hover {
         font-size: 5vw;
     }
 
+    .skill-section {
+        width: 100%;
+        float: none;
+    }
+
     .info-img {
         width: 100%;
         height: 30vh;
@@ -260,11 +285,15 @@ a:hover {
         float: none;
     }
 
-    .skillPanel2 {
-        display: block;
+    h1 {
+        font-size: 5.5vw;
     }
 
-    h1 {
-        font-size: 5vw;
+    h2 {
+        font-size: 4.5vw;
+    }
+
+    h3 {
+        font-size: 3.5vw;
     }
 }
