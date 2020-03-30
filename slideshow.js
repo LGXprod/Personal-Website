@@ -12,7 +12,7 @@ $(document).ready(function() {
         speed: 500,
         autoplay: true,
         autoplaySpeed: 5000,
-        prevArrow: $(".prev"),
-        nextArrow: $(".next")
+        prevArrow: $(".leftArrow"),
+        nextArrow: $(".rightArrow")
     });
 });
